@@ -11,8 +11,6 @@ public class OperacionesBasicas{
         return primo;
     }
 
-
-
    Public int fnFibonacci(int n)
     {
         if (n>1){
@@ -30,4 +28,31 @@ public class OperacionesBasicas{
         }
     } 
 
+    public int AreaTriangulo(int base, int altura){
+        int area= (base*altura)/2;
+        return area;
+    }
+
+    public boolean VerificarPar(int numero){
+        if(numero % 2 == 0){
+            return true;
+        }
+        else {
+            return false;
+        }
+    }
+
+    public int SumatoriaSucesiva(int numero)
+    {
+        int sumatoria = 0;
+        int cont = 0;
+
+        while (cont <= numero) {
+            sumatoria = sumatoria + cont;
+            cont++;
+        }
+
+        return sumatoria;
+    }   
 }
+
