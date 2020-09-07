@@ -10,8 +10,14 @@ public class Registro{
 
     public void RegistroListener(){
         try{
-            Procesos.Registro(this.user, this.pass);
-            Util.crearMensaje("Registro Exitoso", SEVERITY_INFO);
+            if (this.user != ""){
+                Procesos.Registro(this.user, this.pass);
+                Util.crearMensaje("Registro Exitoso", SEVERITY_INFO);
+            }else
+            {
+                Util.crearMensaje("Registro fallido", SEVERITY_ERROR);
+            }
+            
         }catch(Exeption e){
             Util.crearMensaje("Registro fallido", SEVERITY_ERROR);
         }
