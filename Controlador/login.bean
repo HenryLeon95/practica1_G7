@@ -13,6 +13,7 @@ public class Login {
         try {
             procesos.Proceso.Login(this.user, this.pass);
             Util.crearMensaje("Registro Exitoso", SEVERITY_INFO);
+            System.out.println("Se logueo correctamente");
         } catch(Exception e){
             Util.crearMensaje("Registro Fallido", SEVERITY_ERROR);
         }
