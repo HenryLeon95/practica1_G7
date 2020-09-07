@@ -55,17 +55,16 @@ public class OperacionesBasicas{
         }
     }
 
-    public int SumatoriaSucesiva(int numero)
+    public int SumatoriaSucesiva(int x, int n)
     {
         int sumatoria = 0;
-        int cont = 0;
 
-        while (cont <= numero) {
-            sumatoria = sumatoria + cont;
-            cont++;
+        while (x <= n) {
+            sumatoria = sumatoria + x;
+            x++;
         }
 
         return sumatoria;
-    }   
+    }  
 }
 
