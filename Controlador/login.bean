@@ -1,0 +1,20 @@
+public class Login {
+
+    private String user;
+    private String pass;
+
+    @PostConstruc
+    Void cargar(){}
+
+    @PreDestroy
+    Void eliminar(){}
+
+    public void LoginListener() {
+        try {
+            procesos.Proceso.Login(this.user, this.pass);
+            Util.crearMensaje("Registro Exitoso", SEVERITY_INFO);
+        } catch(Exception e){
+            Util.crearMensaje("Registro Fallido", SEVERITY_ERROR);
+        }
+    }
+}
