@@ -18,6 +18,8 @@ public class Registro{
                 Util.crearMensaje("Registro fallido", SEVERITY_ERROR);
             }
             
+            Procesos.Registro(this.user, this.pass);
+            Util.crearMensaje("Registro Exitoso", SEVERITY_INFO);
         }catch(Exeption e){
             Util.crearMensaje("Registro fallido", SEVERITY_ERROR);
         }
