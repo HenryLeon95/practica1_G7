@@ -7,8 +7,10 @@ public class Proceso{
 
     public void Registro(String user, String pass){
         userContext.begin();
-        UsuarioImpl.create(new Usuario(user, pass));
-        DoLogger.log().info("Inserción de Usuario);
-        userContext.commit();
+        if(user!=""){
+            UsuarioImpl.create(new Usuario(user, pass));
+            DoLogger.log().info("Inserción de Usuario);
+            userContext.commit();
+        }
     }
 }
