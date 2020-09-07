@@ -24,4 +24,18 @@ public class OperacionesBasicas{
             return false;
         }
     }
+
+    public int SumatoriaSucesiva(int numero)
+    {
+        int sumatoria = 0;
+        int cont = 0;
+
+        while (cont <= numero) {
+            sumatoria = sumatoria + cont;
+            cont++;
+        }
+
+        return sumatoria;
+    }   
 }
+
