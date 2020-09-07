@@ -8,6 +8,7 @@ public class EstadoUsuario{
         NoActivo
     }
 
+    //Agregando hotfix
     EstadoUsuario.valores.NoActivo.name();
     EstadoUsuario.valores.NoActivo;
 
