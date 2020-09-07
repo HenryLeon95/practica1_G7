@@ -1,0 +1,41 @@
+public class Registro{
+    private String user;
+    private String pass;
+
+    @PostConstructor
+    Void cargar(){}
+
+    @PreDestroy
+    Void eliminar(){}
+
+    public void RegistroListener(){
+        try{
+            if (this.user != ""){
+                Procesos.Registro(this.user, this.pass);
+                Util.crearMensaje("Registro Exitoso", SEVERITY_INFO);
+            }else
+            {
+                Util.crearMensaje("Registro fallido", SEVERITY_ERROR);
+            }
+            
+        }catch(Exeption e){
+            Util.crearMensaje("Registro fallido", SEVERITY_ERROR);
+        }
+    }
+
+    public String getPass(){
+        return pass;
+    }
+
+    public String getUser(){
+        return user;
+    }
+
+    public void setPass(String pass){
+        this.pass = pass;
+    }
+
+    public void setUser(String user){
+        this.user=user;
+    }
+}
