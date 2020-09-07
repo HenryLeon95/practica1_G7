@@ -1,0 +1,8 @@
+public class OperacionesBasicas{
+
+    public int AreaTriangulo(int base, int altura){
+        int area= (base*altura)/2;
+        return area;
+    }
+
+}
