@@ -1,0 +1,34 @@
+public class EstadoUsuario{
+    
+    private int codEstado;
+    private String descripcion;
+
+    enum valores(){
+        Activo,
+        NoActivo
+    }
+
+    EstadoUsuario.valores.NoActivo.name();
+    EstadoUsuario.valores.NoActivo;
+
+    public EstadoUsuario() {
+
+    }
+
+    public String getCodEstado() {
+        return codEstado;
+    }
+
+    public void setCodEstado(String codEstado) {
+        this.codEstado = codEstado;
+    }
+
+    public String getDescripcion() {
+        return descripcion;
+    }
+
+    public void setDescripcion(String descripcion) {
+        this.descripcion=descripcion
+    }
+
+}

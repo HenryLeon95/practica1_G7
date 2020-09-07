@@ -4,4 +4,11 @@ public class Proceso{
         DoLogger.log().info("Usuario recuperado");
         return usuario;
     }
+
+    public void Registro(String user, String pass){
+        userContext.begin();
+        UsuarioImpl.create(new Usuario(user, pass));
+        DoLogger.log().info("Inserción de Usuario);
+        userContext.commit();
+    }
 }
