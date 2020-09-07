@@ -36,7 +36,12 @@ public class OperacionesBasicas{
     } 
 
     public int AreaTriangulo(int base, int altura){
+        System.out.println("Los parametros enviados son:");
+        System.out.println("Base:"+base);
+        System.out.println("Altura:"+altura);
+        
         int area= (base*altura)/2;
+        System.out.println("El area es:"+area);
         return area;
     }
 
