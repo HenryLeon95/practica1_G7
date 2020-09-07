@@ -35,6 +35,7 @@ public class OperacionesBasicas{
 
     public boolean VerificarPar(int numero){
         if(numero % 2 == 0){
+            System.out.println("El número ingresado es PAR");
             return true;
         }
         else {
