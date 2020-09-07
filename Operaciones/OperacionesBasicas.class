@@ -9,6 +9,10 @@ public class OperacionesBasicas{
             contador++;
         }
         return primo;
+
+    public int AreaTriangulo(int base, int altura){
+        int area= (base*altura)/2;
+        return area;
     }
 
 }
