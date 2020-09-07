@@ -1,0 +1,45 @@
+[33m115bbaa[m[33m ([m[1;36mHEAD[m[33m, [m[1;31morigin/Feature/req10[m[33m, [m[1;32mFeature/req10[m[33m, [m[1;32mFF10[m[33m)[m se implemento funcion area del triangulo
+[33m14df1da[m[33m ([m[1;31morigin/release/v2.0.0[m[33m, [m[1;31morigin/FF06_Dev1[m[33m)[m Merge branch 'Feature/req06_dev1' into develop
+[33md1640cb[m[33m ([m[1;31morigin/Feature/req06_dev1[m[33m)[m Implementando proceso de Registro
+[33m8349e09[m[33m ([m[1;31morigin/feature/req06_dev3[m[33m, [m[1;31morigin/FF06_Dev3[m[33m)[m Agregando registro bean
+[33m4229ef8[m[33m ([m[1;31morigin/FF06_dev4[m[33m, [m[1;32mFF06_dev4[m[33m)[m Merge branch 'Feature/req06_dev4' into develop
+[33me6c4fe6[m[33m ([m[1;31morigin/Feature/req06_dev4[m[33m, [m[1;32mFeature/req06_dev4[m[33m)[m Se agrego insercion de usuario
+[33m568b1f5[m[33m ([m[1;31morigin/FF06_Dev2[m[33m)[m Merge branch 'feature/req06_dev2' into develop
+[33ma46bbd3[m[33m ([m[1;31morigin/feature/req06_dev2[m[33m)[m Agregando requerimiento 6, Se agrega pagina de registro
+[33m3ed4236[m[33m ([m[1;31morigin/FF06_Dev5[m[33m)[m Merge branch 'Feature/req06_dev5' into develop
+[33md43f23c[m[33m ([m[1;31morigin/Feature/req06_dev5[m[33m)[m Agregandon req06 dev5
+[33m28be723[m[33m ([m[1;31morigin/release/v1.5.0[m[33m, [m[1;31morigin/FF02[m[33m)[m Merge branch 'feature/req02' into develop
+[33m1b8b510[m[33m ([m[1;31morigin/feature/req02[m[33m)[m Se agrega requerimiento 2
+[33mf9cb209[m Merge branch 'master' of https://github.com/HenryLeon95/practica1_G7 into master
+[33m5e0fa37[m[33m ([m[1;33mtag: v1.4.0[m[33m)[m Merge branch 'release/v1.4.0' into master
+[33m7236905[m[33m ([m[1;31morigin/release/v1.4.0[m[33m, [m[1;31morigin/FF05[m[33m)[m Merge branch 'Feature/req05' into develop
+[33m3842592[m[33m ([m[1;31morigin/Feature/req05[m[33m)[m Agregando requerimiento 5
+[33m8d2443b[m[33m ([m[1;33mtag: v1.3.0[m[33m)[m Merge branch 'release/v1.3.0'
+[33m7ae9388[m[33m ([m[1;31morigin/release/v1.3.0[m[33m, [m[1;31morigin/FF03[m[33m)[m Merge branch 'develop' of https://github.com/HenryLeon95/practica1_G7 into develop
+[33mcc02a1b[m[33m ([m[1;31morigin/feature/req03[m[33m)[m requerimiento 3
+[33m81b3289[m[33m ([m[1;33mtag: v1.2.0[m[33m)[m Merge branch 'release/v1.2.0'
+[33m52d53cc[m[33m ([m[1;31morigin/release/v1.2.0[m[33m, [m[1;31morigin/FF04[m[33m)[m Merge branch 'Feature/req04' into develop
+[33m3c57d83[m[33m ([m[1;31morigin/Feature/req04[m[33m)[m Realizando requerimiento 4
+[33m2fe15f8[m[33m ([m[1;33mtag: v1.1.0[m[33m)[m Merge branch 'release/v1.1.0'
+[33m27cb3d1[m[33m ([m[1;31morigin/release/v1.1.0[m[33m, [m[1;31morigin/FF01[m[33m)[m Merge branch 'Feature/req01' into develop
+[33m76b7347[m[33m ([m[1;31morigin/Feature/req01[m[33m)[m Implementando Requerimiento 1
+[33mef28ae4[m[33m ([m[1;33mtag: V1.0.0[m[33m)[m Merge branch 'release/v1.0.0'
+[33m9a4391d[m[33m ([m[1;31morigin/release/v1.0.0[m[33m, [m[1;31morigin/FF00_Dev5[m[33m)[m Se corrige conflicto, se aceptan ambos cambios
+[33m86fdb15[m[33m ([m[1;31morigin/FF00_Dev4[m[33m)[m Merge branch 'develop' of https://github.com/HenryLeon95/practica1_G7 into develop
+[33m8ac81b8[m se corrige conflicto, se aceptan ambos cmabios
+[33mc0aa833[m Se corrigieron cambios en read.md
+[33m73d3713[m[33m ([m[1;31morigin/FF00_dev2[m[33m)[m se corrige conflicto, se aceptan cambios entrantes y salientes
+[33m2599e31[m Merge branch 'feature/req00_dev2' into develop
+[33m8981c23[m[33m ([m[1;31morigin/feature/req00_dev2[m[33m)[m requerimiento 0 dev 2
+[33m7c48770[m[33m ([m[1;31morigin/FF00/Dev03[m[33m)[m  merge feature/req00_Dev03
+[33md09dfd6[m Merge branch 'Feature/req00_Dev4' into develop
+[33m16edb22[m Merge branch 'feature/req00_dev2' into develop
+[33md70c434[m Merge branch 'Feature/req00_Dev5' into develop
+[33m574ca3f[m Merge branch 'feature/req00_dev03' into develop
+[33mc0bd2a0[m[33m ([m[1;31morigin/FF00_Dev1[m[33m)[m Merge branch 'Feature/req00_Dev1' into develop
+[33m94b616d[m[33m ([m[1;31morigin/Feature/req00_Dev5[m[33m)[m Requerimiento 0 del desarrollador 5
+[33ma1dabab[m[33m ([m[1;31morigin/Feature/req00_Dev4[m[33m)[m Datos developer 4
+[33mdf25485[m[33m ([m[1;31morigin/feature/req00_dev03[m[33m)[m Requerimiento 0 developer 2, Brandon Chitay
+[33m9e7c919[m Se agrega datos desarrollador 2
+[33m8c71ba0[m[33m ([m[1;31morigin/Feature/req00_Dev1[m[33m)[m Requerimiento 0 del developer 1
+[33mb6bf59e[m[33m ([m[1;33mtag: v0.1.0[m[33m)[m first commit
