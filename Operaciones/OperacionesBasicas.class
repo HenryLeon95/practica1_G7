@@ -1,8 +1,9 @@
 public class OperacionesBasicas{
     
-    public static boolean esPrimo(int numero){
+    public static boolean esPrimo(int a, int b, int numero){
         int contador = 2;
         boolean primo=true;
+	    numero = numero + a + b;
         while ((primo) && (contador!=numero)){
             if (numero % contador == 0)
             primo = false;
@@ -13,7 +14,7 @@ public class OperacionesBasicas{
 
    Public int fnFibonacci(int n)
     {
-        if (n>1){
+        if (n>1 && n<100){
         return fibonacci(n-1) + fibonacci(n-2);  
         }
         else if (n==1) {  
@@ -23,18 +24,30 @@ public class OperacionesBasicas{
             return 0;
         }
         else{ //error
-            System.out.println("Debes ingresar un tamaño mayor o igual a 1");
-            return -1; 
+        if (n>=100){
+            System.out.println("Debes ingresar un numero menor a 100");
+            
+        }
+        else {
+            System.out.println("Debes ingresar un numero mayor o igual a 1");
+            return -1;
+        } 
         }
     } 
 
     public int AreaTriangulo(int base, int altura){
+        System.out.println("Los parametros enviados son:");
+        System.out.println("Base:"+base);
+        System.out.println("Altura:"+altura);
+        
         int area= (base*altura)/2;
+        System.out.println("El area es:"+area);
         return area;
     }
 
     public boolean VerificarPar(int numero){
         if(numero % 2 == 0){
+            System.out.println("El número ingresado es PAR");
             return true;
         }
         else {
@@ -42,17 +55,16 @@ public class OperacionesBasicas{
         }
     }
 
-    public int SumatoriaSucesiva(int numero)
+    public int SumatoriaSucesiva(int x, int n)
     {
         int sumatoria = 0;
-        int cont = 0;
 
-        while (cont <= numero) {
-            sumatoria = sumatoria + cont;
-            cont++;
+        while (x <= n) {
+            sumatoria = sumatoria + x;
+            x++;
         }
 
         return sumatoria;
-    }   
+    }  
 }
 
